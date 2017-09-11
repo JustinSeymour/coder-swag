@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		741495601F62780500C3CE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414955F1F62780500C3CE34 /* AppDelegate.swift */; };
-		741495621F62780500C3CE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741495611F62780500C3CE34 /* ViewController.swift */; };
+		741495621F62780500C3CE34 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741495611F62780500C3CE34 /* CategoriesVC.swift */; };
 		741495651F62780500C3CE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741495631F62780500C3CE34 /* Main.storyboard */; };
 		741495671F62780500C3CE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741495661F62780500C3CE34 /* Assets.xcassets */; };
 		7414956A1F62780500C3CE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741495681F62780500C3CE34 /* LaunchScreen.storyboard */; };
 		741495751F62780600C3CE34 /* coder_swagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741495741F62780600C3CE34 /* coder_swagTests.swift */; };
 		741495801F62780600C3CE34 /* coder_swagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414957F1F62780600C3CE34 /* coder_swagUITests.swift */; };
+		741495911F627CD400C3CE34 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741495901F627CD400C3CE34 /* CategoryCell.swift */; };
+		741495931F627E2B00C3CE34 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741495921F627E2B00C3CE34 /* Category.swift */; };
+		741495961F627F3800C3CE34 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741495951F627F3800C3CE34 /* DataService.swift */; };
+		7478C4FF1F66701C00F08973 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478C4FE1F66701C00F08973 /* ProductCell.swift */; };
+		7478C5011F66735F00F08973 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478C5001F66735F00F08973 /* Product.swift */; };
+		7478C5031F66796300F08973 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478C5021F66796300F08973 /* ProductsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		7414955C1F62780500C3CE34 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7414955F1F62780500C3CE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		741495611F62780500C3CE34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		741495611F62780500C3CE34 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		741495641F62780500C3CE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		741495661F62780500C3CE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741495691F62780500C3CE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		7414957B1F62780600C3CE34 /* coder-swagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coder-swagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7414957F1F62780600C3CE34 /* coder_swagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coder_swagUITests.swift; sourceTree = "<group>"; };
 		741495811F62780600C3CE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741495901F627CD400C3CE34 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		741495921F627E2B00C3CE34 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		741495951F627F3800C3CE34 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7478C4FE1F66701C00F08973 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		7478C5001F66735F00F08973 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7478C5021F66796300F08973 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,11 @@
 		7414955E1F62780500C3CE34 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				741495941F627F0C00C3CE34 /* Services */,
+				7414958F1F627CA500C3CE34 /* View */,
+				7414958E1F627C8400C3CE34 /* Model */,
+				7414958D1F627C7600C3CE34 /* Controller */,
 				7414955F1F62780500C3CE34 /* AppDelegate.swift */,
-				741495611F62780500C3CE34 /* ViewController.swift */,
 				741495631F62780500C3CE34 /* Main.storyboard */,
 				741495661F62780500C3CE34 /* Assets.xcassets */,
 				741495681F62780500C3CE34 /* LaunchScreen.storyboard */,
@@ -123,6 +138,41 @@
 				741495811F62780600C3CE34 /* Info.plist */,
 			);
 			path = "coder-swagUITests";
+			sourceTree = "<group>";
+		};
+		7414958D1F627C7600C3CE34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				741495611F62780500C3CE34 /* CategoriesVC.swift */,
+				7478C5021F66796300F08973 /* ProductsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7414958E1F627C8400C3CE34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				741495921F627E2B00C3CE34 /* Category.swift */,
+				7478C5001F66735F00F08973 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7414958F1F627CA500C3CE34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				741495901F627CD400C3CE34 /* CategoryCell.swift */,
+				7478C4FE1F66701C00F08973 /* ProductCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		741495941F627F0C00C3CE34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				741495951F627F3800C3CE34 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				741495621F62780500C3CE34 /* ViewController.swift in Sources */,
+				7478C5031F66796300F08973 /* ProductsVC.swift in Sources */,
+				741495621F62780500C3CE34 /* CategoriesVC.swift in Sources */,
 				741495601F62780500C3CE34 /* AppDelegate.swift in Sources */,
+				741495911F627CD400C3CE34 /* CategoryCell.swift in Sources */,
+				7478C4FF1F66701C00F08973 /* ProductCell.swift in Sources */,
+				741495931F627E2B00C3CE34 /* Category.swift in Sources */,
+				741495961F627F3800C3CE34 /* DataService.swift in Sources */,
+				7478C5011F66735F00F08973 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "coder-swag/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseymour.coder-swag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "coder-swag/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseymour.coder-swag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
